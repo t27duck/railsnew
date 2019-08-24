@@ -1,6 +1,8 @@
 .DS_STORE
 Thumbs.db
 
+dist/
+
 # Logs
 logs
 *.log
