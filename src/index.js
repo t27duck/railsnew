@@ -70,7 +70,7 @@ class App extends React.Component {
           <Card style={{ margin: '10px 0' }}>
             <p><strong>What is this?</strong></p>
             Rails has a lot of switches for customizing how you make a new app. RailsNew constructs the "rails new" command for you!
-            Go through all the optinos for your new app below and copy/paste the resulting command straight into your terminal.
+            Go through all the options for your new app below and copy/paste the resulting command straight into your terminal.
           </Card>
           <Card style={{ margin: '10px 0' }}>
             rails new {appName}
