@@ -1,3 +1,6 @@
+.DS_STORE
+Thumbs.db
+
 # Logs
 logs
 *.log
