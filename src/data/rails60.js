@@ -192,6 +192,22 @@ const Rails60 = {
         { name: "Yes (Default)", value: "" },
         { name: "No", value: "--skip-bundle" }
       ]
+    },
+    {
+      identifier: "tests",
+      label: "Enable MiniTest",
+      options: [
+        { name: "Yes (Default)", value: "" },
+        { name: "No", value: "--skip-test" }
+      ]
+    },
+    {
+      identifier: "systemtests",
+      label: "Use system tests",
+      options: [
+        { name: "Yes (Default)", value: "" },
+        { name: "No", value: "--skip-system-test" }
+      ]
     }
   ],
   "Runtime": [
@@ -225,22 +241,6 @@ const Rails60 = {
       options: [
         { name: "No (Default)", value: "" },
         { name: "Yes", value: "--skip" }
-      ]
-    },
-    {
-      identifier: "tests",
-      label: "Enable MiniTest",
-      options: [
-        { name: "Yes (Default)", value: "" },
-        { name: "No", value: "--skip-test" }
-      ]
-    },
-    {
-      identifier: "systemtests",
-      label: "Use system tests",
-      options: [
-        { name: "Yes (Default)", value: "" },
-        { name: "No", value: "--skip-system-test" }
       ]
     }
   ]
