@@ -2,6 +2,7 @@ import React from "react";
 import { Card, Input, Form, Layout, Select, Tabs } from 'antd';
 import Rails52 from './data/rails52.js';
 import Rails60 from './data/rails60.js';
+import Rails61 from './data/rails61.js';
 import './App.css';
 
 const { TabPane } = Tabs;
@@ -15,8 +16,8 @@ class App extends React.Component {
     this.state = {
       switches: {},
       appName: "MyApp",
-      config: Rails60,
-      railsVersion: "60"
+      config: Rails61,
+      railsVersion: "61"
     };
   }
 
@@ -36,8 +37,11 @@ class App extends React.Component {
       case "52":
         newConfig = Rails52;
         break;
-      default:
+      case "60":
         newConfig = Rails60;
+        break;
+      default:
+        newConfig = Rails61;
     }
     this.setState({ switches: {}, railsVersion: value, config: newConfig });
   }
@@ -92,6 +96,7 @@ class App extends React.Component {
                   >
                     <Option value="52">5.2</Option>
                     <Option value="60">6.0</Option>
+                    <Option value="61">6.1</Option>
                   </Select>
                 </Form.Item>
               </Form>
