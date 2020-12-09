@@ -279,4 +279,4 @@ const Rails61 = {
   ]
 };
 
-export default Rails60;
+export default Rails61;
