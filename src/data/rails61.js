@@ -269,8 +269,8 @@ const Rails61 = {
       ]
     },
     {
-      identifier: "skip-=collision-check",
-      label: "Skip collision checkt",
+      identifier: "skip-collision-check",
+      label: "Skip collision check",
       options: [
         { name: "No (Default)", value: "" },
         { name: "Yes", value: "--skip-collision-check" }
