@@ -78,7 +78,6 @@ const Rails61 = {
         { name: "No", value: "--skip-active-record" }
       ]
     },
-    ,
     {
       identifier: "actionstorage",
       label: "Use Action Storage",
